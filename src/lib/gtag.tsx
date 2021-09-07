@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import Script from 'next/script'
 import { useEffect } from 'react'
 
-export const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || ''
+export const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || 'test'
 
 // IDが取得できない場合を想定する
 export const existsGaId = GA_ID !== ''
